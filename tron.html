@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body onload="dibujar()">
+    <canvas id="miCanvas" width="200" height="200" style="border:3px solid #ff0000;"></canvas>
+    <script type="text/javascript">
+        function dibujar(){
+        var canvas = document.getElementById("miCanvas");
+        var ctx = canvas.getContext("2d");
+
+        //moto1
+
+                //ruedas
+                ctx.save()
+                    ctx.scale(.13 , .11)
+                    ctx.beginPath()
+
+                    ctx.arc(700, 480, 50, 0, 2 * Math.PI, false)
+                    ctx.fillStyle = "cyan"
+                    ctx.fill();
+                    ctx.restore();
+
+
+                    ctx.save()
+                    ctx.scale(.13 , .11)
+                    ctx.beginPath()
+
+                    ctx.arc(700, 650, 50, 0, 2 * Math.PI, false)
+                    ctx.fillStyle = "cyan"
+                    ctx.fill();
+                    ctx.restore();
+
+                
+
+            
+
+                //cuerpo
+                ctx.save()
+                    ctx.scale(.09 , .09)
+                    ctx.beginPath()
+
+                    ctx.arc(1008, 590, 50, 0, 2 * Math.PI, false)
+                    ctx.fillStyle = "black"
+                    ctx.fill();
+                    ctx.restore();
+
+
+                    ctx.fillStyle = "black";
+                    ctx.fillRect(87 , 50 , 7 , 24);
+                    
+                ctx.save()
+                    ctx.scale(.09 , .09)
+                    ctx.beginPath()
+
+                    ctx.arc(1008, 790, 50, 0, 2 * Math.PI, false)
+                    ctx.fillStyle = "black"
+                    ctx.fill();
+                    ctx.restore();
+
+
+
+                //color
+                ctx.beginPath();
+                ctx.moveTo(90.2,50);
+                ctx.lineTo(90.2,74);
+                ctx.strokeStyle = "cyan"
+                ctx.stroke();
+
+
+
+
+
+        //moto2
+            //ruedas
+            ctx.save()
+                    ctx.scale(.13 , .11)
+                    ctx.beginPath()
+
+                    ctx.arc(485, 480, 50, 0, 2 * Math.PI, false)
+                    ctx.fillStyle = "#fc741c"
+                    ctx.fill();
+                    ctx.restore();
+
+
+                    ctx.save()
+                    ctx.scale(.13 , .11)
+                    ctx.beginPath()
+
+                    ctx.arc(485, 650, 50, 0, 2 * Math.PI, false)
+                    ctx.fillStyle = "#fc741c"
+                    ctx.fill();
+                    ctx.restore();
+
+                
+
+            
+
+                //cuerpo
+                ctx.save()
+                    ctx.scale(.09 , .09)
+                    ctx.beginPath()
+
+                    ctx.arc(700, 590, 50, 0, 2 * Math.PI, false)
+                    ctx.fillStyle = "black"
+                    ctx.fill();
+                    ctx.restore();
+
+
+                    ctx.fillStyle = "black";
+                    ctx.fillRect(59.5 , 50 , 7 , 24);
+                    
+                ctx.save()
+                    ctx.scale(.09 , .09)
+                    ctx.beginPath()
+
+                    ctx.arc(700, 790, 50, 0, 2 * Math.PI, false)
+                    ctx.fillStyle = "black"
+                    ctx.fill();
+                    ctx.restore();
+
+
+
+                //color
+                ctx.beginPath();
+                ctx.moveTo(63,50);
+                ctx.lineTo(63,74);
+                ctx.strokeStyle = "#fc741c"
+                ctx.stroke();
+
+
+        //moto3
+            //ruedas
+        ctx.save()
+                    ctx.scale(.13 , .11)
+                    ctx.beginPath()
++
+                    ctx.arc(950, 480, 50, 0, 2 * Math.PI, false)
+                    ctx.fillStyle = "#d8251f"
+                    ctx.fill();
+                    ctx.restore();
+
+
+                    ctx.save()
+                    ctx.scale(.13 , .11)
+                    ctx.beginPath()
+
+                    ctx.arc(950, 650, 50, 0, 2 * Math.PI, false)
+                    ctx.fillStyle = "#d8251f"
+                    ctx.fill();
+                    ctx.restore();
+
+                
+
+            
+
+                //cuerpo
+                ctx.save()
+                    ctx.scale(.09 , .09)
+                    ctx.beginPath()
+
+                    ctx.arc(1372, 590, 50, 0, 2 * Math.PI, false)
+                    ctx.fillStyle = "black"
+                    ctx.fill();
+                    ctx.restore();
+
+
+                    ctx.fillStyle = "black";
+                    ctx.fillRect(120 , 50 , 7 , 24);
+                    
+                ctx.save()
+                    ctx.scale(.09 , .09)
+                    ctx.beginPath()
+
+                    ctx.arc(1372, 790, 50, 0, 2 * Math.PI, false)
+                    ctx.fillStyle = "black"
+                    ctx.fill();
+                    ctx.restore();
+
+
+
+                //color
+                ctx.beginPath();
+                ctx.moveTo(124,50);
+                ctx.lineTo(124,74);
+                ctx.strokeStyle = "#d8251f"
+                ctx.stroke();
+
+
+
+        //moto4
+            //ruedas
+            ctx.save()
+                    ctx.scale(.13 , .11)
+                    ctx.beginPath()
++
+                    ctx.arc(1200, 480, 50, 0, 2 * Math.PI, false)
+                    ctx.fillStyle = "#d8251f"
+                    ctx.fill();
+                    ctx.restore();
+
+
+                    ctx.save()
+                    ctx.scale(.13 , .11)
+                    ctx.beginPath()
+
+                    ctx.arc(1200, 650, 50, 0, 2 * Math.PI, false)
+                    ctx.fillStyle = "#d8251f"
+                    ctx.fill();
+                    ctx.restore();
+
+                
+
+            
+
+                //cuerpo
+                ctx.save()
+                    ctx.scale(.09 , .09)
+                    ctx.beginPath()
+
+                    ctx.arc(1732, 590, 50, 0, 2 * Math.PI, false)
+                    ctx.fillStyle = "black"
+                    ctx.fill();
+                    ctx.restore();
+
+
+                    ctx.fillStyle = "black";
+                    ctx.fillRect(200 , 50 , 7 , 24);
+                    
+                ctx.save()
+                    ctx.scale(.09 , .09)
+                    ctx.beginPath()
+
+                    ctx.arc(1732, 790, 50, 0, 2 * Math.PI, false)
+                    ctx.fillStyle = "black"
+                    ctx.fill();
+                    ctx.restore();
+
+
+
+                //color
+                ctx.beginPath();
+                ctx.moveTo(124,50);
+                ctx.lineTo(124,74);
+                ctx.strokeStyle = "#d8251f"
+                ctx.stroke();
+
+
+        
+        
+            
+        }   
+    </script>
+    
+</body>
+</html>
